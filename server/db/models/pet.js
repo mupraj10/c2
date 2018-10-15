@@ -3,6 +3,7 @@ const Sequelize = require('sequelize')
 
 const Pet = db.define('pet', {
     name: Sequelize.STRING, 
+    img: Sequelize.STRING, 
     type: Sequelize.STRING, 
     age: Sequelize.INTEGER, 
     description: Sequelize.STRING

@@ -28,3 +28,5 @@ I used a premade boilermaker from [Fullstack](https://www.fullstackacademy.com) 
 
 ## Notes
 
+ #### Things I was able to accomplish: 
+    -  

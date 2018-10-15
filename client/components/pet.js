@@ -13,7 +13,7 @@ export const Pet = props => {
             <div className="media-left">
               <figure className="image is-48x48">
                 <img
-                  src="https://bulma.io/images/placeholders/96x96.png"
+                  src={pet.img || "https://bulma.io/images/placeholders/96x96.png"}
                   alt="Placeholder image"
                 />
               </figure>

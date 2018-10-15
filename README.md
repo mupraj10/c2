@@ -29,5 +29,10 @@ I used a premade boilermaker from [Fullstack](https://www.fullstackacademy.com) 
 ## Notes
 
  #### Things I was able to accomplish: 
-    -  
+    -  As a user you
+      -  can log in and get to your home page 
+      -  can view a gallery of pets 
+      -  can view a gallery of vets 
+Code-wise: 
+   
  #### Things I was not able to accmomplish: 

@@ -1,5 +1,6 @@
 const User = require('./user')
 const Pet = require('./pet')
+const Vet = require('./vet')
 
 /**
  * If we had any associations to make, this would be a great place to put them!
@@ -16,5 +17,6 @@ const Pet = require('./pet')
  */
 module.exports = {
   User, 
-  Pet
+  Pet, 
+  Vet
 }

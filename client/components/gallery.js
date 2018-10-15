@@ -37,7 +37,7 @@ export const Gallery = props => {
   const {petList} = props
   console.log(petList)
   return (
-    <div className="container columns is-2">
+    <div className="container columns">
       {petList && petList.map(pet => <Pet key={pet.id} pet={pet} />)}
     </div>
   )

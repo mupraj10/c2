@@ -1,44 +1,40 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import {connect} from 'react-redux'
-import{Pet} from './pet';
+import{VetCard} from './vet-card';
 
 const dummyData = [
     {
         id: 1,
-        name: 'some name', 
-        type: 'dog', 
-        age: '12', 
-        description: "Fun loving"
+        name: 'Puppy MD',
+        img: '',  
+        location: "NYC"
     },
     {
         id: 2,
-        name: 'some name', 
-        type: 'dog', 
-        age: '12',
-        description: "Fun loving"
+        name: 'Kitty Doc',
+        img: '',  
+        location: "Seattle"
     },
     {
         id: 3,
-        name: 'some name', 
-        type: 'dog', 
-        age: '12',
-        description: "Fun loving"
+        name: 'Cat MD',
+        img: '',  
+        location: "Portland"
     },
     {
         id: 4,
-        name: 'some name', 
-        type: 'dog', 
-        age: '12',
-        description: "Fun loving"
+        name: 'Puppy Doc',
+        img: '',  
+        location: "Woodside"
     }
 ]
 export const Profiles = props => {
 //   const {pets} = props
 
   return (
-    <div className='container columns is-2'>
-    {dummyData.map(pet => <Pet key={pet.id} pet={pet}/>
+    <div className='container'>
+    {dummyData.map(vet => <VetCard key={vet.id} vet={vet}/>
         )}
       
     </div>

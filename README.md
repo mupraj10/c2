@@ -30,3 +30,4 @@ I used a premade boilermaker from [Fullstack](https://www.fullstackacademy.com) 
 
  #### Things I was able to accomplish: 
     -  
+ #### Things I was not able to accmomplish: 

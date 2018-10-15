@@ -2,35 +2,33 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom';
 
-export const Pet = props => {
-  const {pet} = props
+export const VetCard = props => {
+  const {vet} = props
 
   return (
-    <Link to={`/pet/${props.pet.id}`}>
+    <Link to={`/vet/${props.vet.id}`}>
       <div className="card">
         <div className="card-content">
           <div className="media">
             <div className="media-left">
               <figure className="image is-64x64">
                 <img
-                  src={pet.img || "https://bulma.io/images/placeholders/96x96.png"}
+                  src={vet.img || "https://bulma.io/images/placeholders/96x96.png"}
                   alt="Placeholder image"
                 />
               </figure>
             </div>
             <div className="media-content">
-              <p className="title is-4">{pet.name}</p>
-              <p className="subtitle is-6">Type: {pet.type}</p>
-              <p className="subtitle is-6">Age: {pet.age}</p>
+              <p className="title is-4">{vet.name}</p>
+              <p className="subtitle is-6">Location: {vet.location}</p>
             </div>
           </div>
-          <div className="content">{pet.description}</div>
         </div>
       </div>
     </Link>
   )
 }
 
-Pet.propTypes = {
-  pet: PropTypes.object
+VetCard.propTypes = {
+  vet: PropTypes.object
 }

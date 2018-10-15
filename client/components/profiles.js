@@ -33,7 +33,7 @@ const dummyData = [
         description: "Fun loving"
     }
 ]
-export const Gallery = props => {
+export const Profiles = props => {
 //   const {pets} = props
 
   return (
@@ -50,15 +50,15 @@ export const Gallery = props => {
  */
 const mapState = state => {
   return {
-    pets: state.pets
+    vets: state.vets
   }
 }
 
-export default connect(mapState)(Gallery)
+export default connect(mapState)(Profiles)
 
 /**
  * PROP TYPES
  */
-Gallery.propTypes = {
-  pets: PropTypes.object
+Profiles.propTypes = {
+  vets: PropTypes.object
 }

@@ -15,24 +15,41 @@ Hi! This is a coding challenge completed by [Maggy Prajapati](mailto:mupraj10@gm
 
 ## Problem
 
-#### Create an app called: Rover 
- Rover is an app that is similar to Tinder but for you pets and enable you to find a vet for your pet by matching.
+#### Create an app called: Rover
 
-I used the following technologies: Node, Express, Sequelize, React, Redux. 
+Rover is an app that is similar to Tinder but for you pets and enable you to find a vet for your pet by matching.
 
-I used postgres for my db. 
+I used the following technologies: Node, Express, Sequelize, React, Redux.
 
-I used [Bulma.io](https://bulma.io/) for styling. 
+I used postgres for my db.
+
+I used [Bulma.io](https://bulma.io/) for styling.
 
 I used a premade boilermaker from [Fullstack](https://www.fullstackacademy.com) with more instructions [here](instructions.md)
 
 ## Notes
 
- #### Things I was able to accomplish: 
-    -  As a user you
-      -  can log in and get to your home page 
-      -  can view a gallery of pets 
-      -  can view a gallery of vets 
-Code-wise: 
-   
- #### Things I was not able to accmomplish: 
+#### Things I was able to accomplish:
+
+* User journey
+  * As a user you
+  * can log in and get to your home page
+  * can view a gallery of pets
+  * can view a gallery of vets
+* Code
+  * Backend
+    * API routing for pet and vet
+    * Models for pet and vet
+      -Frontend
+  * Components for Pet Galley and Vet Profiles
+  * Implemented redux for Pets
+
+#### If I had more time:
+
+* I would want to
+  * complete all the test specs I could not get to
+  * add more validations to my db models
+  * implement the associations between
+  * finish implementing the single pet and vet view
+  * add better styling to the gallery views
+  * implment a matching function
